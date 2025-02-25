@@ -1,0 +1,56 @@
+/* Grundlegendes Styling für den Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container für den Inhalt */
+  .container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  /* Überschrift */
+  h1 {
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  /* Styling für den Dateiupload */
+  input[type="file"] {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    background: #fafafa;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  input[type="file"]:hover {
+    border-color: #aaa;
+  }
+  
+  /* Styling für das Ergebnisfeld */
+  pre {
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+    min-height: 150px;
+    color: #444;
+    text-align: left;
+    overflow-x: auto;
+  }
+  

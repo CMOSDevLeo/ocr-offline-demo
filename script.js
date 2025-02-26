@@ -1,7 +1,7 @@
 // Erstelle einen Tesseract Worker und verweise auf den lokalen tessdata-Ordner
 const worker = Tesseract.createWorker({
   logger: m => console.log('Tesseract:', m),
-  langPath: './tessdata'
+  langPath: 'https://CMOSDevIo.github.io/ocr-offline-demo/tessdata'
 });
 
 (async () => {
